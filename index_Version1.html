@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Malla Estudiantil - Medicina UCN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Malla Estudiantil</h1>
+        <h2>Universidad Central de Nicaragua - Medicina</h2>
+        <p>Turno Diurno</p>
+    </header>
+    <main>
+        <div class="grid">
+            <!-- Semestres -->
+            <div class="semester">
+                <h3>I Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Bioestadística')">Bioestadística</li>
+                    <li class="subject" onclick="showDetail('Biología')">Biología</li>
+                    <li class="subject" onclick="showDetail('Historia de la Medicina')">Historia de la Medicina</li>
+                    <li class="subject" onclick="showDetail('Anatomía I')">Anatomía I</li>
+                    <li class="subject" onclick="showDetail('Odontología y Ética Médica')">Odontología y Ética Médica</li>
+                    <li class="subject" onclick="showDetail('Español')">Español</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>II Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Bioestadística')">Bioestadística</li>
+                    <li class="subject" onclick="showDetail('Anatomía II')">Anatomía II</li>
+                    <li class="subject" onclick="showDetail('Biofísica')">Biofísica</li>
+                    <li class="subject" onclick="showDetail('Técnicas de Atención al Paciente')">Técnicas de Atención al Paciente</li>
+                    <li class="subject" onclick="showDetail('Genética Humana')">Genética Humana</li>
+                    <li class="subject" onclick="showDetail('Salud y Comunidad I')">Salud y Comunidad I</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>III Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Fisiología I')">Fisiología I</li>
+                    <li class="subject" onclick="showDetail('Histología')">Histología</li>
+                    <li class="subject" onclick="showDetail('Microbiología')">Microbiología</li>
+                    <li class="subject" onclick="showDetail('Química')">Química</li>
+                    <li class="subject" onclick="showDetail('Inglés I')">Inglés I</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>IV Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Fisiología II')">Fisiología II</li>
+                    <li class="subject" onclick="showDetail('Embriología')">Embriología</li>
+                    <li class="subject" onclick="showDetail('Salud y Comunidad II')">Salud y Comunidad II</li>
+                    <li class="subject" onclick="showDetail('Bioquímica II')">Bioquímica II</li>
+                    <li class="subject" onclick="showDetail('Parasitología')">Parasitología</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>V Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Imagenología')">Imagenología</li>
+                    <li class="subject" onclick="showDetail('Fisiopatología')">Fisiopatología</li>
+                    <li class="subject" onclick="showDetail('Seminario')">Seminario</li>
+                    <li class="subject" onclick="showDetail('Patología General')">Patología General</li>
+                    <li class="subject" onclick="showDetail('Farmacología I')">Farmacología I</li>
+                    <li class="subject" onclick="showDetail('Inglés II')">Inglés II</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>VI Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Farmacología II')">Farmacología II</li>
+                    <li class="subject" onclick="showDetail('Metodología de la Investigación')">Metodología de la Investigación</li>
+                    <li class="subject" onclick="showDetail('Patología Específica')">Patología Específica</li>
+                    <li class="subject" onclick="showDetail('Nutrición')">Nutrición</li>
+                    <li class="subject" onclick="showDetail('Semiología II')">Semiología II</li>
+                    <li class="subject" onclick="showDetail('Inglés IV')">Inglés IV</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>VII Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Medicina Interna')">Medicina Interna</li>
+                    <li class="subject" onclick="showDetail('Farmacología Clínica I')">Farmacología Clínica I</li>
+                    <li class="subject" onclick="showDetail('Medicina Forense')">Medicina Forense</li>
+                    <li class="subject" onclick="showDetail('Dermatología')">Dermatología</li>
+                    <li class="subject" onclick="showDetail('Administración en Salud')">Administración en Salud</li>
+                    <li class="subject" onclick="showDetail('Inglés V')">Inglés V</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>VIII Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Cirugía')">Cirugía</li>
+                    <li class="subject" onclick="showDetail('Farmacología Clínica II')">Farmacología Clínica II</li>
+                    <li class="subject" onclick="showDetail('Inmunología')">Inmunología</li>
+                    <li class="subject" onclick="showDetail('Toxicología')">Toxicología</li>
+                    <li class="subject" onclick="showDetail('Otorrinolaringología')">Otorrinolaringología</li>
+                    <li class="subject" onclick="showDetail('Inglés VI')">Inglés VI</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>IX Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Ginecología y Obstetricia')">Ginecología y Obstetricia</li>
+                    <li class="subject" onclick="showDetail('Oftalmología')">Oftalmología</li>
+                    <li class="subject" onclick="showDetail('Oncología')">Oncología</li>
+                    <li class="subject" onclick="showDetail('Medicina Laboral')">Medicina Laboral</li>
+                    <li class="subject" onclick="showDetail('Epidemiología')">Epidemiología</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>X Semestre</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Pediatría')">Pediatría</li>
+                    <li class="subject" onclick="showDetail('Psiquiatría')">Psiquiatría</li>
+                    <li class="subject" onclick="showDetail('Fisiatría')">Fisiatría</li>
+                    <li class="subject" onclick="showDetail('Bioética')">Bioética</li>
+                    <li class="subject" onclick="showDetail('Diseño Monográfico')">Diseño Monográfico</li>
+                </ul>
+            </div>
+            <div class="semester">
+                <h3>Sexto año (Internado Rotatorio)</h3>
+                <ul>
+                    <li class="subject" onclick="showDetail('Módulo de Pediatría')">Módulo de Pediatría</li>
+                    <li class="subject" onclick="showDetail('Módulo de Ginecología y Obstetricia')">Módulo de Ginecología y Obstetricia</li>
+                    <li class="subject" onclick="showDetail('Módulo de Medicina Interna')">Módulo de Medicina Interna</li>
+                    <li class="subject" onclick="showDetail('Módulo de Cirugía')">Módulo de Cirugía</li>
+                    <li class="subject" onclick="showDetail('Módulo de Atención Primaria en Salud')">Módulo de Atención Primaria en Salud</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Modal para detalles -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="close" class="close">&times;</span>
+                <h4 id="modal-title"></h4>
+                <p id="modal-detail">Aquí puedes agregar detalles específicos de la materia.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <small>Pensando en tu futuro - Medicina UCN</small>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
